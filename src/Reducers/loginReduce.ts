@@ -1,5 +1,5 @@
 import {Dispatch} from "redux";
-import {setApiStatusAC, setAppInitializedAC} from "./appReducer";
+import {setApiStatusAC} from "./appReducer";
 import {loginApi, LoginParamsType} from "../LoginApi";
 import {handleServerAppError, handleServerNetworkError} from "../error-utils";
 
