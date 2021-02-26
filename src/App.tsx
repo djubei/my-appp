@@ -32,7 +32,6 @@ function App({demo = false}: PropsType) {
     const initialized = useSelector<AppRootState, boolean>((state) => state.app.initialized)
     const isLoggedIn = useSelector<AppRootState, boolean>(state => state.auth.isLoginIn)
 
-
     const LogOutHandler = () => {
         debugger
         dispatch(dispatch(logOutTC))
